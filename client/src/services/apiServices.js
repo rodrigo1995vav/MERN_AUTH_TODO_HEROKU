@@ -1,7 +1,7 @@
 import axios from "axios";
-const apiUrl = "http://localhost:3001/api/auth";
-const apiUrl2="http://localhost:3001/api/tasks"
-const apiUrl3="http://localhost:3001/api/folders"
+const apiUrl = "/api/auth";
+const apiUrl2="/api/tasks"
+const apiUrl3="/api/folders"
 
 
 export function registerUser(body) {
